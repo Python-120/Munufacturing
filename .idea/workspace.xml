@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c875219c-0328-43bf-af6f-5a23458d4d94" name="Changes" comment="Check" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Python-120&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Python-120/Munufacturing.git&quot;,
+    &quot;accountId&quot;: &quot;3381c2c7-eebb-49df-a09d-51967d936bb2&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2wXBLoQvsNPy4HypBn9ZRWIiwSh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TestClass.executor": "Run",
+    "JUnit.SelenideTest.authorizationTest.executor": "Run",
+    "JUnit.SelenideTest.executor": "Run",
+    "JUnit.SelenideTest.openProject.executor": "Debug",
+    "JUnit.SelenideTest.search.executor": "Run",
+    "JUnit.SelenideTest.selectOptionOnDropDown.executor": "Run",
+    "JUnit.SelenideTest.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/denis/AquaProjects/ua.skillsup.gelius.autotests-playwright-test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.SelenideTest.selectOptionOnDropDown">
+    <configuration name="SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Munufacturing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.testomat.munufacturing.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.testomat.munufacturing.pages" />
+      <option name="MAIN_CLASS_NAME" value="io.testomat.munufacturing.pages.SelenideTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelenideTest.authorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Munufacturing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.testomat.munufacturing.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.testomat.munufacturing.pages" />
+      <option name="MAIN_CLASS_NAME" value="io.testomat.munufacturing.pages.SelenideTest" />
+      <option name="METHOD_NAME" value="authorizationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelenideTest.openProjectPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Munufacturing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.testomat.munufacturing.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.testomat.munufacturing.pages" />
+      <option name="MAIN_CLASS_NAME" value="io.testomat.munufacturing.pages.SelenideTest" />
+      <option name="METHOD_NAME" value="openProjectPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelenideTest.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Munufacturing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.testomat.munufacturing.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.testomat.munufacturing.pages" />
+      <option name="MAIN_CLASS_NAME" value="io.testomat.munufacturing.pages.SelenideTest" />
+      <option name="METHOD_NAME" value="search" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelenideTest.selectOptionOnDropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Munufacturing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.testomat.munufacturing.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.testomat.munufacturing.pages" />
+      <option name="MAIN_CLASS_NAME" value="io.testomat.munufacturing.pages.SelenideTest" />
+      <option name="METHOD_NAME" value="selectOptionOnDropDown" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SelenideTest.selectOptionOnDropDown" />
+        <item itemvalue="JUnit.SelenideTest" />
+        <item itemvalue="JUnit.SelenideTest.authorizationTest" />
+        <item itemvalue="JUnit.SelenideTest.openProjectPage" />
+        <item itemvalue="JUnit.SelenideTest.search" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastUrl" value="https://app.testomat.io/companies" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c875219c-0328-43bf-af6f-5a23458d4d94" name="Changes" comment="" />
+      <created>1746177987075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746177987075</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Check">
+      <option name="closed" value="true" />
+      <created>1746179227919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746179227919</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
