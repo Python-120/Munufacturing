@@ -1,25 +1,30 @@
 package io.testomat.munufacturing.pages;
 
 import base.BaseTest;
+import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
 
 public class SelenideTest extends BaseTest {
 
+    @BeforeEach
+    public void setUp() {
+        openUrl();
+    }
+
     @AfterEach
     public void close() {
-        webdriver().driver().close();
+        closeWebDriver();
     }
 
     @DisplayName("Authorization Test")
     @Test
     public void authorizationTest() {
-        openUrl();
         loginInSystem();
 
         CheckResult();
@@ -28,7 +33,6 @@ public class SelenideTest extends BaseTest {
     @DisplayName("searchProject")
     @Test
     public void search() {
-    openUrl();
     loginInSystem();
     searchProject("Home");
 
@@ -38,12 +42,29 @@ public class SelenideTest extends BaseTest {
     @DisplayName("Project Page Test")
     @Test
     public void openProjectPage() {
-        openUrl();
         loginInSystem();
         searchProject("Home");
         ClickToProject();
 
         checkTitle();
+    }
+
+    @DisplayName("Select option on drop-down")
+    @Test
+    public void selectOptionOnDropDown() {
+        loginInSystem();
+        selectOption("Free Projects");
+
+        checkNoProject();
+    }
+
+    private static void checkNoProject() {
+        $x("//p[contains(@class, 'mb-6')]")
+                .shouldBe(visible);
+    }
+
+    private void selectOption(String option) {
+        Selenide.$("#content-desktop #company_id").selectOption(option);
     }
 
     private static void checkTitle() {
